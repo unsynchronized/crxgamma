@@ -1,0 +1,16 @@
+{
+    "name": "gamma test",
+    "description" : "Base Level Extension",
+    "version": "1.0",
+    "manifest_version": 2,
+    "permissions": [
+        "alarms", "https://www.example.com/"
+    ],
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    }
+}
